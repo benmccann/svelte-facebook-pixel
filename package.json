@@ -2,8 +2,8 @@
   "name": "@beyonk/svelte-facebook-pixel",
   "type": "module",
   "svelte": "src/index.js",
-  "module": "dist/index.mjs",
-  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "main": "dist/index.cjs",
   "scripts": {
     "dev": "WATCH=true nollup -c --hot --port 5000 --content-base ./public -s",
     "build": "rollup -c",
